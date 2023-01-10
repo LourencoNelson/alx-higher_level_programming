@@ -2,7 +2,5 @@
 
 def uppercase(str):
     for s in str:
-        if s.islower():
-            print("{}".format(chr(ord(s)-32)), end="")
-        else:
-            print("{}".format(s), end="")
+        print("{}".format(if s.islower: chr(ord(s)-32)) else: s, end="")
+    print()
